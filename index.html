@@ -554,5 +554,92 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="close-btn">
+          <svg class="icon-form-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="form-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="form-field">
+            <label for="user-name" class="field-descr">Name</label>
+            <div class="field">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="classic-field"
+              />
+              <svg class="icon-form" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="phone" class="field-descr">Phone</label>
+            <div class="field">
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                class="classic-field"
+                pattern="^\d+$"
+              />
+              <svg class="icon-form" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="email" class="field-descr">Email</label>
+            <div class="field">
+              <input
+                type="text"
+                name="email"
+                id="email"
+                class="classic-field"
+                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                required
+              />
+              <svg class="icon-form" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field last">
+            <label for="user-comment" class="field-descr"> Comment </label>
+            <textarea
+              class="comment-section"
+              name="user-comment"
+              placeholder="Text input"
+              id="user-comment"
+            >
+            </textarea>
+          </div>
+          <div class="accept">
+            <input
+              type="checkbox"
+              class="visually-hidden"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              required
+            />
+            <label for="user-privacy" class="field-descr">
+              I accept the terms and conditions of the
+              <span class="privacy">
+                >Privacy Policy
+                <svg>
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <button class="send-btn" type="submit" name="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
