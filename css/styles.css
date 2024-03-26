@@ -574,7 +574,7 @@ ol {
   background-color: #31d0aa;
 }
 .sub {
-  margin-left: 80px;
+  margin-left: auto;
 }
 .sub-form {
   display: flex;
@@ -589,7 +589,6 @@ ol {
   letter-spacing: 0.04em;
   color: white;
   background-color: #4d5ae5;
-  margin-left: 24px;
   padding: 8px 24px;
   border: none;
   border-radius: 4px;
