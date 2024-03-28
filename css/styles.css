@@ -683,7 +683,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: 100%;
 }
 .form-title {
   text-align: center;
@@ -760,16 +759,15 @@ ol {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
+  /* font-size: 18px; */
   line-height: 1.17;
   letter-spacing: 0.04em;
   outline: transparent;
   padding: 8px 16px;
-  margin-bottom: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
   height: 120px;
-  text-align: start;
   resize: none;
   color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
@@ -780,14 +778,14 @@ ol {
   border-color: #4d5ae5;
 }
 
-.comment-section::placeholder {
+/* .comment-section::placeholder {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.7;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-}
+} */
 
 .accept {
   display: flex;
