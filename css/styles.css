@@ -575,7 +575,6 @@ ol {
 }
 .sub {
   margin-left: auto;
-  margin-bottom: 16px;
 }
 .sub-form {
   display: flex;
@@ -659,6 +658,7 @@ ol {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  width: 100%;
 }
 .modal {
   position: absolute;
