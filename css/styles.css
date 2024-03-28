@@ -690,6 +690,8 @@ ol {
   color: #2e2f42;
   font-weight: 500;
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .form-field {
